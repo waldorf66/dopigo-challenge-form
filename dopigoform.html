@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Dopigo Form</title>
+            <link rel="stylesheet" type="text/css" href="css/styles.css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+    <body class="mainBody" style="background-color: lightgray">
+        <form class="wrapper">
+            <div class="topHeader">
+                
+            </div>
+
+            <div id="carouselExampleFade" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                            <div class="container myContainer" >
+                                    <div class="row contentPart">
+                                        <div class="col-md-4 col-sm-12 leftPart  align-items-center">
+                                            <div class="row leftText">
+                                                <label class="numberFilled">1</label>
+                                                <label class="numberEmpty">2</label>
+                                            </div>
+                                            <br/>
+                                            <div class="row leftText center">
+                                                <label class="textPrimary ">Give us some basic information</label>
+                                            </div>
+                                            <div class="row leftText center">
+                                                <label class="textSecondary ">To start off. Please enter main contact name, email and address password</label>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-md-8  col-sm-12 rightPart">
+                                            <div class="row">
+                                                <label class="offset-1  textPrimary">Step 1</label>
+                                            </div>
+                                            <div class="row">
+                                                <div class="offset-md-1  col-md-5  col-sm-12">
+                                                        <label for="nameInput" class="form-label textSecondary">Main Contact Name</label>
+                                                        <input type="text" class="form-control" placeholder="eg. Johnsmith" id="nameInput"/>
+                                                        <div id="nameValidate" class="invalid-feedback">
+                                                            Please Enter Contact Name
+                                                        </div>
+                                                </div>
+                                                <div class="col-md-5 col-sm-12">
+                                                        <label for="emailInput" class="form-label textSecondary">Email Address</label>
+                                                        <input type="email" class="form-control" placeholder="eg. Johnsmith@mybusiness.com" id="emailInput"/>
+                                                        <div id="emailValidate" class="invalid-feedback">
+                                                            Please Email Address
+                                                        </div>
+                                                </div>
+                                            </div>
+                                            <br/>
+                                            <div class="row">
+                                                    <div class="offset-md-1  col-md-5">
+                                                            <label for="passInput" class="form-label textSecondary">Password</label>
+                                                            <input type="password" class="form-control" placeholder="eg. Johnsmith" id="passInput"/>
+                                                            <div id="passValidate" class="invalid-feedback">
+                                                                Please Enter a Valid Password
+                                                            </div>
+                                                    </div>
+                                                    <div class="col-md-5">
+                                                            <label for="emailInput" class="form-label textSecondary">&nbsp;</label>
+                                                            <input type="password" class="form-control" placeholder="Confirm Password" id="passConfirmInput"/>
+                                                            <div id="passConfirm" class="invalid-feedback">
+                                                                Passwords Must Match
+                                                            </div>
+                                                    </div>
+                                            </div>
+                                            <br/>
+                                            <hr class="myLineSeparator offset-md-1 col-md-10 col-sm-12" style="border-top: 0.5px dashed rgb(230, 227, 227)">
+                                            <div class="row bottomPart">
+                                                    
+                                                <input class=" offset-1  purpleButton actionButton" href="#carouselExampleFade" role="button" data-slide="next" type="button" value="Continue"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                      </div>
+                      <div class="carousel-item">
+                            
+                            <div class="container myContainer" >
+                                    <div class="row contentPart">
+                                        <div class="col-md-4  col-sm-12 leftPart align-items-center border-right">
+                                            <div class="row leftText">
+                                                <label class="numberFilled">1</label>
+                                                <label class="numberFilled">2</label>
+                                            </div>
+                                            <br/>
+                                            <div class="row leftText">
+                                                <label class="textPrimary ">Complete your registration</label>
+                                            </div>
+                                            <div class="row leftText">
+                                                <label class="textSecondary ">Please enter business details.</label>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-md-8  col-sm-12 rightPart">
+                                            <div class="row">
+                                                <label class="offset-1  textPrimary">Step 2</label>
+                                            </div>
+                                            <div class="row">
+                                                <div class="offset-md-1  col-md-10  col-sm-12">
+                                                        <label for="businessInput" class="form-label textSecondary">Business Name (English)</label>
+                                                        <input type="text" class="form-control" placeholder="eg. mybusiness" id="businessInput"/>
+                                                        <div id="businessValidate" class="invalid-feedback">
+                                                            Please Enter Business Name
+                                                        </div>
+                                                </div>
+                                            </div>
+                                            <br/>
+                                            <div class="row">
+                                                <div class="offset-md-1  col-md-5  col-sm-12">
+                                                        <label for="websiteInput" class="form-label textSecondary">Business Website</label>
+                                                        <input type="text" class="form-control" placeholder="eg. mybusiness.com" id="websiteInput"/>
+                                                        <div id="websiteValidate" class="invalid-feedback">
+                                                            Please Enter Your Business Website
+                                                        </div>
+                                                </div>
+                                                <div class="col-md-5  col-sm-12">
+                                                        <label for="phoneInput" class="form-label textSecondary">Main Phone Number</label>
+                                                        <input type="number" class="form-control" placeholder="eg. 658 0000 0000" id="phoneInput"/>
+                                                        <div id="phoneValidate" class="invalid-feedback">
+                                                            Please Enter A Valid Phone Number
+                                                        </div>
+                                                </div>
+                                            </div>
+                                            <br/>
+                                            <div class="row">
+                                                    <div class="offset-md-1  col-md-5  col-sm-12">
+                                                            <label for="typeInput" class="form-label textSecondary">Please Select Your Business Type</label>
+                                                            <select class="form-control" id="typeInput">
+                                                                <option selected disabled hidden>Please Select</option>
+                                                                <option>Sole Proprietorship</option>
+                                                                <option>General Partnership</option>
+                                                            </select>
+                                                            <div id="typeValidate" class="invalid-feedback">
+                                                                Please Select a Business Type
+                                                            </div>
+                                                    </div>
+                                                    <div class="col-md-5  col-sm-12">
+                                                            <label for="registInput" class="form-label textSecondary">Business Registration Number</label>
+                                                            <input type="number" class="form-control" placeholder="eg. 658 0000 0000" id="registInput"/>
+                                                            <div id="registValidate" class="invalid-feedback">
+                                                                Please Enter A Valid Registration Number
+                                                            </div>
+                                                    </div>
+                                            </div>
+                                            <br/>
+                                            <div class="row">
+                                                <div class="offset-md-1 col-md-10  col-sm-12">
+                                                        <label for="addressInput" class="form-label textSecondary">Business Address (English)</label>
+                                                        <input type="text" class="form-control" placeholder="eg. mybusiness.com" id="addressInput"/>
+                                                        <div id="businessValidate" class="invalid-feedback">
+                                                            Please Enter Business Address
+                                                        </div>
+                                                </div>
+                                            </div>
+                                            <br/>
+                                            <hr class="myLineSeparator offset-md-1 col-md-10 col-sm-12" style="border-top: 0.5px dashed rgb(230, 227, 227)">
+                                            <div class="row bottomPart">
+                                                    
+                                                <input class=" offset-1 whiteButton actionButton" href="#carouselExampleFade" role="button" data-slide="prev" type="button"  value="&#8249; Back" />
+                                                <input class=" offset-1  purpleButton actionButton" type="button" onclick="registrationComplete()" value="Continue"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        
+                        
+                      </div>
+                    </div>
+                    
+                    
+                  </div>
+                
+        </form>
+
+        <div class="modal fade " id="confirmPanel" tabindex="-1" role="dialog" aria-labelledby="modalW-inner5" aria-hidden="true">
+
+                <div class="modal-dialog modal-dialog-scrollable" role="document">
+                    <div class="modal-content" style="background-color:white">
+                        <div class="modal-header" style="text-align:center;align-self:center;justify-content:center">
+                            <h4 style="text-decoration:underline;font-weight:bold;color:black;text-align:center">Registration Complete</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="DetailArea text-center" >
+                                <i class="fa fa-check-circle fa-4x" style="color:blueviolet"></i>
+                                <h4>
+                                    Your Registration is Successful
+                                </h4>
+                                <p>
+                                    We will be contacting you shortly.
+        
+                                </p>
+                                <p class="small">Tip: Press <b>g</b> to toggle validation fields.</p>
+                                <hr />
+                                <input type="button" onclick="goHome()" data-dismiss="modal" aria-label="Close" style="width:70%;height:50px;color:white;background-color:blueviolet;border:none;border-radius:10px;font-weight:500"value="Close"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        <script>
+            $('.carousel').carousel({
+            interval: false
+            })
+
+            function registrationComplete()
+            {
+                $('#confirmPanel').modal('show');
+            }
+
+            function goHome()
+            {
+                location.reload();
+            }
+
+            function testValidation()
+            {
+                $('.invalid-feedback').toggle();
+            }
+
+            $(document).keypress(function(e){
+                if (e.which == 103) 
+                {
+                    testValidation(); 
+                };
+            });
+        </script>
+    </body>
+</html>

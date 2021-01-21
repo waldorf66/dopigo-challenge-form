@@ -1,0 +1,141 @@
+body {
+    background-color: lightgray;
+  }
+  
+.container {
+    margin-top:5%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+.myContainer{
+    min-height: 550px;
+    height: 80%;
+}
+
+.vSeparator
+{
+    border-left:1px solid rgb(230, 227, 227);
+    height:500px;
+}
+.leftPart
+{
+    padding: 3%;
+    padding-top: 20%;
+    padding-bottom:3%; 
+    border-right: 1px solid rgb(230, 227, 227);
+    
+    text-align: center;
+    text-align: -webkit-center;
+}
+.rightPart
+{
+    padding: 3%;
+    padding-top:3%; 
+    padding-bottom:3%; 
+    min-height: 100%;
+}
+.carousel-inner
+{
+    padding-bottom: 2%;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .leftText
+  {
+      width:80%;
+      text-align: center;
+      align-self: center;
+      place-content: center;
+  }
+
+  .numberFilled
+  {
+      padding: 5px;
+      margin: 10px;
+      border:3px solid darkorchid;
+      background-color: darkorchid;
+      border-radius: 50%;
+      height: 40px;
+      width: 40px;
+      font-weight: 500;
+      color: white;
+  }
+  .numberEmpty
+  {
+      padding: 5px;
+      margin: 10px;
+      border:3px solid lightgray;
+      background-color: lightgray;
+      border-radius: 50%;
+      height: 40px;
+      width: 40px;
+      font-weight: 500;
+      color: black;
+  }
+  .textPrimary 
+  {
+    font-weight: 500;
+    color: black;
+  }
+  .textSecondary
+  {
+    font-size: 90%;
+    color: gray;
+  }
+
+  .actionButton
+  {
+      padding: 8px;
+      width:140px;
+      border-radius: 25px;
+  }
+  .actionButton:focus {
+    outline: none;
+  }
+
+  .purpleButton
+  {
+      color:white;
+      border: 1px solid darkorchid;
+      background-color: darkorchid;
+  }
+  .purpleButton:hover
+  {
+    border: 1px solid rgb(110, 28, 151)!important;
+    background-color: rgb(110, 28, 151)!important;
+  }
+  .whiteButton
+  {
+      color:lightgray;
+      border: 1px solid lightgray;
+      background-color: white;
+  }
+  .purpleButton:hover
+  {
+    border: 1px solid lightgray!important;
+    background-color: rgb(133, 132, 132)!important;
+  }
+
+
+
+  .bottomPart
+  {
+     margin-top: 20px;
+  }
+  .myLineSeparator
+  {
+      border-top: 0.5px dashed rgb(230, 227, 227);
+  }
+  .contentPart
+  {
+      min-height: inherit;
+      height: 100%;
+  }
