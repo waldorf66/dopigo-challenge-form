@@ -139,3 +139,22 @@ body {
       min-height: inherit;
       height: 100%;
   }
+  .centeredPanel
+  {
+      min-height: inherit;
+      height:100%;
+  }
+  .centeredPanel div{
+      height:fit-content;
+  }
+  .panelTop
+  {
+    /*min-height: 350px;*/
+    margin-top: 25%;
+    margin-bottom: 20%;
+  }
+
+  .panelBottom
+  {
+    
+  }
